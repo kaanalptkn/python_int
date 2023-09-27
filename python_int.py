@@ -1,5 +1,16 @@
-## Task 
-The provided code stub reads two integers from STDIN, _a_ and _b_ . Add code to print three lines where:
-The first line contains the sum of the two numbers.
-The second line contains the difference of the two numbers (first - second).
-The third line contains the product of the two numbers.
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+
+# Calculate sum, difference and product of the int.
+
+sum_ab = a + b
+diff_ab = a - b
+product_ab = a * b
+
+# Print the result
+
+print(sum_ab)
+print(diff_ab)
+print(product_ab)
